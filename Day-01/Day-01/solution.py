@@ -1,29 +1,53 @@
-# DAY 1 SOLUTION: Simple Business Client Profile
+# =====================================================================
+# DAY 1 SOLUTION: Business Client Account Summary
+# =====================================================================
+# This script stores a new business client's details using appropriate 
+# data types, calculates the total invoice, and displays a clean summary.
 
-# In this script, we store basic business and customer data using different data types. This helps our software application remember important details about our clients.
-
-# 1. We store the company name as a text string because it contains letters.
+# 1. We store the client's company name in a string variable.
+# WHY: Text data must always be enclosed in quotation marks.
 client_name = "Northstar Logistics"
 
-# 2. We store the total software licenses as an integer because we cannot sell half a license.
-licenses = 12
+# 2. We store the number of software licenses bought in an integer variable.
+# WHY: License seats represent discrete whole counts that cannot be fractional.
+licenses_purchased = 12
 
-# 3. We store the price per license as a float because money requires precise decimal numbers.
-price = 29.99
+# 3. We store the exact price per license in a float variable.
+# WHY: Financial amounts require precise decimal numbers to handle cents accurately.
+price_per_license = 29.99
 
-# 4. We store the account status as a boolean (True or False) to check if the client is active.
-is_active = True
+# 4. We store whether payment was successfully confirmed in a boolean variable.
+# WHY: Booleans act as binary flags (True or False) to gate features or check status.
+payment_confirmed = True
 
-# We calculate the total bill by multiplying the number of licenses by the price.
-total_bill = licenses * price
+# 5. We store the primary contact email in a string variable.
+# WHY: Emails contain text characters like '@' and letters, requiring string formatting.
+billing_email = "billing@northstar.io"
 
-# We use print statements to display a neat summary of the client account on our terminal screen.
+# We calculate the total invoice amount by multiplying licenses by the unit price.
+total_invoice = licenses_purchased * price_per_license
+
+# 6. We use the print() function to display a clean account summary in our terminal.
+# WHY: Print statements allow developers and system logs to verify live data values.
 print("-----------------------------------------")
 print("        BUSINESS CLIENT SUMMARY          ")
 print("-----------------------------------------")
-print("The client company name is:", client_name)
-print("The number of purchased licenses is:", licenses)
-print("The price for each license is: $", price)
-print("The total invoice bill amount is: $", total_bill)
-print("Is the client account active? :", is_active)
+print("Client Company Name :", client_name)
+print("Primary Billing Email:", billing_email)
+print("Licenses Purchased   :", licenses_purchased)
+print("Price per License    : $", price_per_license)
+print("Total Invoice Amount : $", total_invoice)
+print("Payment Confirmed    :", payment_confirmed)
 print("-----------------------------------------")
+
+# EXPECTED TERMINAL OUTPUT:
+# -----------------------------------------
+#         BUSINESS CLIENT SUMMARY          
+# -----------------------------------------
+# Client Company Name : Northstar Logistics
+# Primary Billing Email: billing@northstar.io
+# Licenses Purchased   : 12
+# Price per License    : $ 29.99
+# Total Invoice Amount : $ 359.88
+# Payment Confirmed    : True
+# -----------------------------------------
