@@ -1,8 +1,6 @@
 # DAY 1 SOLUTION: Simple Business Client Profile
 
-# In this script, we store basic business and customer data using 
-# different data types. This helps our software application remember 
-# important details about our clients.
+# In this script, we store basic business and customer data using different data types. This helps our software application remember important details about our clients.
 
 # 1. We store the company name as a text string because it contains letters.
 client_name = "Northstar Logistics"
