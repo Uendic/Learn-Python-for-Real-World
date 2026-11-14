@@ -48,10 +48,10 @@ Write clean Python code to solve each business scenario below.
 5. Store their primary contact email in a string variable called `billing_email`.
 6. Use the `print()` function to display a clean account summary for this business client in your terminal.
 
-# =====================================================================
+
 # DAY 1 SOLUTION: Simple Business Client Profile
-# =====================================================================
-# In this script, we store basic business and customer data using different data types. This helps our software application remember important details about our clients.
+
+In this script, we store basic business and customer data using different data types. This helps our software application remember important details about our clients.
 
 # 1. We store the company name as a text string because it contains letters.
 client_name = "Northstar Logistics"
