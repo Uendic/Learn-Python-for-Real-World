@@ -1,4 +1,4 @@
-# Learn-Python-for-Real-World
+# Learn Python for Real World
 # Day 1: Variables and Data Types in Real Applications
 
 ## Real World Context
