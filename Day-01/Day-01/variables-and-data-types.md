@@ -69,12 +69,11 @@ is_active = True
 total_bill = licenses * price
 
 #We use print statements to display a neat summary of the client account on our terminal screen.
-print("-----------------------------------------")
+
 print("        BUSINESS CLIENT SUMMARY          ")
-print("-----------------------------------------")
 print("The client company name is:", client_name)
 print("The number of purchased licenses is:", licenses)
 print("The price for each license is: $", price)
 print("The total invoice bill amount is: $", total_bill)
 print("Is the client account active? :", is_active)
-print("-----------------------------------------")
+
