@@ -454,7 +454,7 @@ For display:
 print(f"{account_balance} {currency}")
 ```
 
-# 11. Practical Mini Project — SaaS Account Summary
+# 11. Practical Mini Project : SaaS Account Summary
 
 Build a small account summary using variables.
 
