@@ -1,8 +1,8 @@
 
-# DAY 01 — PYTHON VARIABLES
+# DAY 01 : PYTHON VARIABLES
 
 **Course:** Python from Zero to Advanced  
-**Module:** 01 — Variables  
+**Module:** 01 : Variables  
 
 ---
 
@@ -141,7 +141,7 @@ remaining_credits -= 15
 
 Variables can refer to different kinds of values.
 
-## String — str
+## String (str)
 
 A string represents text.
 
@@ -152,7 +152,7 @@ customer_email = "customer@example.com"
 
 Strings are used for names, descriptions, emails, addresses, and other text-based information.
 
-## Integer — int
+## Integer (int)
 
 An integer represents a whole number.
 
@@ -164,7 +164,7 @@ total_orders = 1250
 
 Integers are useful for quantities and counters.
 
-## Float — float
+## Float (float)
 
 A float represents a floating-point number.
 
@@ -178,7 +178,7 @@ Floats are commonly used for measurements and approximate decimal calculations.
 
 For financial applications, use Decimal rather than relying on float for exact monetary arithmetic. We will study this later.
 
-## Boolean — bool
+## Boolean (bool)
 
 A Boolean represents one of two values:
 
@@ -325,7 +325,7 @@ The result represents simplified monthly recurring revenue.
 
 This example demonstrates how variables can represent real business metrics.
 
-The same approach is used in reporting systems, dashboards, financial software, and business applications.
+The same approach is used in reporting systems, dashboards, financial software and business applications.
 
 # 8. Multiple Assignment
 
@@ -460,7 +460,7 @@ Build a small account summary using variables.
 
 ```python
 customer_name = "Sarah Williams"
-company_name = "Northstar Analytics"
+company_name = "Starry Analytics"
 subscription_plan = "Business"
 
 licensed_users = 18
