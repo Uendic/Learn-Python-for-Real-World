@@ -7,6 +7,6 @@ Instead of studying boring school theory, I focus on writing real code that is a
 ## Daily Track
 * **[Day-01/](Day-01/)** - Variables and Data Types in Real Software and Business.
 * *(More days will be added here daily)*
-
+**[Day-02/](Day-02/)**
 ## Author
 Created by Uendi.
